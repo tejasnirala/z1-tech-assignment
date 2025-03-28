@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm install && vite",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
